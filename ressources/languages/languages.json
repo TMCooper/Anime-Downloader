@@ -1,0 +1,12 @@
+{
+    "defaults" : {
+        "askLangues" : "What is your languages ? : ",
+        "languagesOptions" : ["FR", "ENG"]
+    },
+    "fr": {
+        "apiChoices" : "Quel API voulez vous lancer :"
+    },
+    "eng": {
+        "apiChoices" : "Which API would you like to launch :"
+    }
+}

@@ -1,0 +1,20 @@
+[project]
+name = "anime-downloader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "TMCooper", email = "pokemon160377@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "inquirerpy>=0.3.4",
+    "yoitsuwrap>=0.1.9",
+]
+
+[project.scripts]
+anime-downloader = "anime_downloader:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
