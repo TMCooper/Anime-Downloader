@@ -1,5 +1,4 @@
 venv
 .python-version
 __pycache__
-AnimeSamaApi
-voiranime_API
+API
