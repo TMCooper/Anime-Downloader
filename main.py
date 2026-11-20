@@ -10,7 +10,7 @@ def main():
     Utils.clearScreen()
 
     api_choices = Utils.ask(languages[language]["apiChoices"], Utils.API_TO_LAUNCH.get(language)).lower()
-    print(Utils.launchApis(api_choices))
+    Utils.launchApis(api_choices)
     # Utils.clearScreen()
 
 if __name__ == "__main__":
