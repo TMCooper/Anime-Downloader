@@ -4,9 +4,13 @@
         "languagesOptions" : ["FR", "ENG"]
     },
     "fr": {
-        "apiChoices" : "Quel API voulez vous lancer :"
+        "apiChoices" : "Quel API voulez vous lancer : ",
+        "animeTitleChoice" : "Quel est le nom de l'animé ? : ",
+        "animeVersion" : "Quel est la version de l'animer que vous souhaité télécharger ? : "
     },
     "eng": {
-        "apiChoices" : "Which API would you like to launch :"
+        "apiChoices" : "Which API would you like to launch : ",
+        "animeTitleChoice" : "What is the name of the anime ? : ",
+        "animeVersion" : "Which version of the anime would you like to download ? : "
     }
 }
